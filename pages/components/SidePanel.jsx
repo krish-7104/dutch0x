@@ -4,7 +4,7 @@ const SidePanel = () => {
   return (
     <div className="w-[28%]">
       <p className="text-[#00000080] text-[24px]">Overview</p>
-      <div className="box-shadow bg-white flex items-center justify-between px-4 rounded-md mt-4 py-3">
+      <div className="box-shadow bg-white flex items-center justify-between px-4 rounded-lg mt-4 py-3">
         <p className="text-[#00000099] text-base">Wallet balance</p>
         <div className="flex justify-center items-center">
           <p>0.489 ETH</p>
@@ -24,7 +24,7 @@ const SidePanel = () => {
           </svg>
         </div>
       </div>
-      <div className="box-shadow bg-white flex px-4 rounded-md mt-4 py-3 flex-col">
+      <div className="box-shadow bg-white flex px-4 rounded-lg mt-4 py-3 flex-col">
         <p className="text-xl mb-4 font-bold">NFTs</p>
         <div className="flex justify-between items-center mb-4">
           <p className="text-[#00000080] text-base">NFT items</p>
@@ -87,7 +87,7 @@ const SidePanel = () => {
           </div>
         </div>
       </div>
-      <div className="box-shadow bg-white flex px-4 rounded-md mt-4 py-3 flex-col">
+      <div className="box-shadow bg-white flex px-4 rounded-lg mt-4 py-3 flex-col">
         <p className="mb-4 font-bold text-xl">Saved Searches</p>
         <div className="flex justify-between items-center mb-4">
           <p className="text-[#00000080] text-base">Green apple</p>
@@ -124,7 +124,7 @@ const SidePanel = () => {
           </svg>
         </div>
       </div>
-      <div className="box-shadow bg-white flex px-4 rounded-md mt-4 py-3 flex-col">
+      <div className="box-shadow bg-white flex px-4 rounded-lg mt-4 py-3 flex-col">
         <p className="text-xl mb-4 font-bold">Recent Activity</p>
         <div className="flex justify-between items-center mb-4">
           <p className="text-[#00000080] text-base">Settings &gt; Account</p>

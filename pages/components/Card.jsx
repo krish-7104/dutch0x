@@ -5,10 +5,10 @@ const Card = () => {
   return (
     <>
       {/* First Card */}
-      <div className="bg-white mt-4 rounded-md flex justify-between items-center box-shadow pb-4 pt-2 mb-8 overflow-hidden relative">
+      <div className="bg-white mt-4 rounded-lg flex justify-between items-center box-shadow pb-4 pt-2 mb-8 overflow-hidden relative">
         <div className="w-full">
           <div className="pt-3 flex">
-            <p className="bg-[#3caa2a] text-white text-xs font-semibold tracking-wider rounded-r-md pr-2 pl-6 py-1 flex justify-center items-center">
+            <p className="bg-[#3caa2a] text-white text-xs rounded-r-md pr-2 pl-6 py-1 flex justify-center items-center">
               <svg
                 className="mr-2"
                 width="15"
@@ -31,7 +31,7 @@ const Card = () => {
               </svg>
               AIRDROP
             </p>
-            <p className="bg-[#e4e4e4] text-black text-sm font-bold rounded-md py-1 px-3 ml-2 flex justify-center items-center">
+            <p className="bg-[#e4e4e4] text-black text-sm font-bold rounded-lg py-1 px-3 ml-2 flex justify-center items-center">
               <svg
                 className="mr-2"
                 width="14"
@@ -92,10 +92,10 @@ const Card = () => {
             <span className="h-[14px] w-[60%] block gradient rounded-[8px]"></span>
           </div>
           <div className="ml-6 flex items-center mt-4">
-            <button className="bg-black border-2 border-black text-white rounded-md text-base py-1 px-2 z-20">
+            <button className="bg-black border-2 border-black text-white rounded-lg text-base py-1 px-2 z-20">
               More Details
             </button>
-            <button className="border-[1.4px] border-black text-black rounded-md text-sbasem py-1 px-2 ml-2 z-20">
+            <button className="border-[1.4px] border-black text-black rounded-lg text-sbasem py-1 px-2 ml-2 z-20">
               Cancel
             </button>
             <div className="ml-4 flex z-20">
@@ -120,10 +120,10 @@ const Card = () => {
         />
       </div>
       {/* Second Card */}
-      <div className="bg-white mt-4 rounded-md flex justify-between items-center box-shadow pb-4 pt-2 mb-8 overflow-hidden relative">
+      <div className="bg-white mt-4 rounded-lg flex justify-between items-center box-shadow pb-4 pt-2 mb-8 overflow-hidden relative">
         <div className="w-full">
           <div className="pt-3 flex">
-            <p className="bg-[#28458f] text-white text-xs flex justify-center items-center font-semibold tracking-wider rounded-r-md pr-2 pl-6 py-1">
+            <p className="bg-[#28458f] text-white text-xs flex justify-center items-center rounded-r-md pr-2 pl-6 py-1">
               <svg
                 className="mr-2"
                 width="15"
@@ -141,7 +141,7 @@ const Card = () => {
               </svg>
               AIRDROP
             </p>
-            <p className="bg-[#e4e4e4] text-black text-sm font-bold rounded-md py-1 px-3 ml-2 flex justify-center items-center">
+            <p className="bg-[#e4e4e4] text-black text-sm font-bold rounded-lg py-1 px-3 ml-2 flex justify-center items-center">
               <svg
                 className="mr-2"
                 width="14"
@@ -202,7 +202,7 @@ const Card = () => {
             <span className="h-[14px] w-[100%] block gradient rounded-[8px]"></span>
           </div>
           <div className="ml-6 flex items-center mt-4 z-20">
-            <button className="bg-black border-2 border-black text-white rounded-md text-base py-1 px-2 z-20">
+            <button className="bg-black border-2 border-black text-white rounded-lg text-base py-1 px-2 z-20">
               More Details
             </button>
           </div>
