@@ -52,7 +52,7 @@ const Navbar = () => {
       <ul className="flex justify-between items-center">
         <li className="text-black mx-4 text-base font-semibold cursor-pointer flex justify-center items-center flex-col relative">
           <Link href="/">Dashboard</Link>
-          <span className="block bg-[#FF4800] h-[5px] w-[5px] rounded-full absolute top-5"></span>
+          <span className="block bg-[#FF4800] h-[5px] w-[5px] rounded-full absolute top-6"></span>
         </li>
         <li className="text-[#00000060] mx-4 font-400 text-base cursor-pointer font-medium">
           <Link href="/">Create</Link>
