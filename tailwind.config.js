@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -11,8 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        Santoshi: ["Santoshi", ...defaultTheme.fontFamily.sans],
+      backgroundImage: {
+        manure: "url('/manure.svg')",
+        water: "url('/water.svg')",
       },
     },
   },
