@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-full py-2 px-2">
       <svg
-        className="mx-2 cursor-pointer"
+        className="mx-2 my-2 cursor-pointer"
         width="300"
         height="45"
         viewBox="0 0 146 36"
@@ -67,7 +67,7 @@ const Navbar = () => {
           <Link href="/">Learn</Link>
         </li>
       </ul>
-      <div className="flex justify-center items-center border-2 rounded-md border-bg-gray-300 w-full mx-6">
+      <div className="flex justify-center items-center border-2 rounded-md border-bg-gray-300 w-full 2xl:w-[40%] 2xl:mx-auto mx-6">
         <div className="mx-3">
           <svg
             width="16"

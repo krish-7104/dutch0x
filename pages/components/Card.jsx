@@ -69,22 +69,22 @@ const Card = () => {
               <p className="text-[14px] z-20">2022-09-13 08:57:15</p>
             </div>
           </div>
-          <p className="tracking-tight mt-3 ml-6 z-20">
+          <p className="tracking-tight mt-4 ml-6 z-20">
             🍎🍌🍍The Fruit Salad Game🍆🥦🥕
           </p>
           <div className="flex justify-start items-center ml-6">
-            <p className="tracking-tight my-3 text-2xl font-semibold">Manure</p>
+            <p className="tracking-tight my-2 text-2xl font-semibold">Manure</p>
             <p className="text-sm ml-2 -mb-2">x 100</p>
           </div>
           <div className="flex items-center ml-6 z-20">
-            <p className="z-20">Wallet Transactions:</p>
-            <p className="ml-4 mr-2 z-20">
+            <p className="z-20 text-sm">Wallet Transactions:</p>
+            <p className="ml-4 mr-2 z-20 text-sm">
               <b>44</b> Success
             </p>
-            <p className="mx-2 z-20">
+            <p className="mx-2 z-20 text-sm">
               <b>8</b> Processing
             </p>
-            <p className="mx-2 z-20">
+            <p className="mx-2 z-20 text-sm">
               <b>2</b> Failed
             </p>
           </div>
@@ -179,24 +179,22 @@ const Card = () => {
               <p className="text-[14px] z-20">2022-09-13 08:57:15</p>
             </div>
           </div>
-          <p className="tracking-tight mt-3 ml-6 z-20">
+          <p className="tracking-tight mt-4 ml-6 z-20">
             🍎🍌🍍The Fruit Salad Game🍆🥦🥕
           </p>
           <div className="flex justify-start items-center ml-6">
-            <p className="tracking-tight my-3 text-2xl font-semibold v">
-              Water
-            </p>
+            <p className="tracking-tight my-2 text-2xl font-semibold">Water</p>
             <p className="text-sm ml-2 -mb-2 z-20">x 100</p>
           </div>
-          <div className="flex items-center ml-6 z-20">
+          <div className="flex items-center ml-6 z-20 text-sm">
             <p>Wallet Transactions:</p>
-            <p className="ml-4 mr-2 z-20">
+            <p className="ml-4 mr-2 z-20 text-sm">
               <b>100</b> Success
             </p>
-            <p className="mx-2 z-20">
+            <p className="mx-2 z-20 text-sm">
               <b>0</b> Processing
             </p>
-            <p className="mx-2 z-20">
+            <p className="mx-2 z-20 text-sm">
               <b>0</b> Failed
             </p>
           </div>
