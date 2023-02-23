@@ -3,9 +3,9 @@ import React from "react";
 const SidePanel = () => {
   return (
     <div className="w-[28%]">
-      <p className="text-[#00000080] text-xl">Overview</p>
-      <div className="shadow-md bg-white flex items-center justify-between px-4 rounded-md mt-4 py-3">
-        <p className="text-[#00000099]">Wallet balance</p>
+      <p className="text-[#00000080] text-[24px]">Overview</p>
+      <div className="box-shadow bg-white flex items-center justify-between px-4 rounded-md mt-4 py-3">
+        <p className="text-[#00000099] text-base">Wallet balance</p>
         <div className="flex justify-center items-center">
           <p>0.489 ETH</p>
           <svg
@@ -24,10 +24,10 @@ const SidePanel = () => {
           </svg>
         </div>
       </div>
-      <div className="shadow-md bg-white flex px-4 rounded-md mt-4 py-3 flex-col">
-        <p className="text-lg mb-4 font-bold">NFTs</p>
+      <div className="box-shadow bg-white flex px-4 rounded-md mt-4 py-3 flex-col">
+        <p className="text-xl mb-4 font-bold">NFTs</p>
         <div className="flex justify-between items-center mb-4">
-          <p className="text-[#00000080]">NFT items</p>
+          <p className="text-[#00000080] text-base">NFT items</p>
           <div className="flex items-center">
             <p>187</p>
             <svg
@@ -47,7 +47,7 @@ const SidePanel = () => {
           </div>
         </div>
         <div className="flex justify-between items-center mb-4">
-          <p className="text-[#00000080]">Collections</p>
+          <p className="text-[#00000080] text-base">Collections</p>
           <div className="flex items-center">
             <p>5</p>
             <svg
@@ -67,7 +67,7 @@ const SidePanel = () => {
           </div>
         </div>
         <div className="flex justify-between items-center mb-4">
-          <p className="text-[#00000080]">Minted</p>
+          <p className="text-[#00000080] text-base">Minted</p>
           <div className="flex items-center">
             <p>39</p>
             <svg
@@ -87,10 +87,10 @@ const SidePanel = () => {
           </div>
         </div>
       </div>
-      <div className="shadow-md bg-white flex px-4 rounded-md mt-4 py-3 flex-col">
-        <p className="text-lg mb-4 font-bold">Saved Searches</p>
+      <div className="box-shadow bg-white flex px-4 rounded-md mt-4 py-3 flex-col">
+        <p className="mb-4 font-bold text-xl">Saved Searches</p>
         <div className="flex justify-between items-center mb-4">
-          <p className="text-[#00000080]">Green apple</p>
+          <p className="text-[#00000080] text-base">Green apple</p>
           <svg
             className="ml-6 mr-2 mt-1"
             width="10"
@@ -107,7 +107,7 @@ const SidePanel = () => {
           </svg>
         </div>
         <div className="flex justify-between items-center mb-2">
-          <p className="text-[#00000080]">Christmas tree</p>
+          <p className="text-[#00000080] text-base">Christmas tree</p>
           <svg
             className="ml-6 mr-2 mt-1"
             width="10"
@@ -124,10 +124,10 @@ const SidePanel = () => {
           </svg>
         </div>
       </div>
-      <div className="shadow-md bg-white flex px-4 rounded-md mt-4 py-3 flex-col">
-        <p className="text-lg mb-4 font-bold">Recent Activity</p>
+      <div className="box-shadow bg-white flex px-4 rounded-md mt-4 py-3 flex-col">
+        <p className="text-xl mb-4 font-bold">Recent Activity</p>
         <div className="flex justify-between items-center mb-4">
-          <p className="text-[#00000080]">Settings &gt; Account</p>
+          <p className="text-[#00000080] text-base">Settings &gt; Account</p>
           <svg
             className="ml-6 mr-2 mt-1"
             width="10"
@@ -144,7 +144,7 @@ const SidePanel = () => {
           </svg>
         </div>
         <div className="flex justify-between items-center mb-2">
-          <p className="text-[#00000080]">Sales reports</p>
+          <p className="text-[#00000080] text-base">Sales reports</p>
           <svg
             className="ml-6 mr-2 mt-1"
             width="10"

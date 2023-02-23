@@ -6,8 +6,8 @@ const Navbar = () => {
     <div className="flex justify-between items-center w-full py-2 px-2">
       <svg
         className="mx-2 my-2 cursor-pointer"
-        width="300"
-        height="45"
+        width="400"
+        height="40"
         viewBox="0 0 146 36"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -50,24 +50,24 @@ const Navbar = () => {
         />
       </svg>
       <ul className="flex justify-between items-center">
-        <li className="text-black mx-4 text-sm font-semibold cursor-pointer flex justify-center items-center flex-col relative">
+        <li className="text-black mx-4 text-base font-semibold cursor-pointer flex justify-center items-center flex-col relative">
           <Link href="/">Dashboard</Link>
           <span className="block bg-[#FF4800] h-[5px] w-[5px] rounded-full absolute top-5"></span>
         </li>
-        <li className="text-[#00000060] mx-4 font-400 text-sm cursor-pointer font-medium">
+        <li className="text-[#00000060] mx-4 font-400 text-base cursor-pointer font-medium">
           <Link href="/">Create</Link>
         </li>
-        <li className="text-[#00000060] mx-4 font-400 text-sm cursor-pointer font-medium relative flex">
+        <li className="text-[#00000060] mx-4 font-400 text-base cursor-pointer font-medium relative flex">
           <Link href="/">Marketplace</Link>
           <span className="absolute text-[10px] top-4 text-[#FF4800] font-semibold">
             Coming Soon
           </span>
         </li>
-        <li className="text-[#00000060] mx-4 font-400 text-sm cursor-pointer font-medium">
+        <li className="text-[#00000060] mx-4 font-400 text-base cursor-pointer font-medium">
           <Link href="/">Learn</Link>
         </li>
       </ul>
-      <div className="flex justify-center items-center border-2 rounded-md border-bg-gray-300 w-full 2xl:w-[40%] 2xl:mx-auto mx-6">
+      <div className="flex justify-center items-center border-2 rounded-lg border-bg-gray-300 w-full 2xl:w-[40%] 2xl:mx-auto mx-6">
         <div className="mx-3">
           <svg
             width="16"
@@ -88,13 +88,13 @@ const Navbar = () => {
           placeholder="Find Holders"
           className="w-[100%] outline-none text-sm"
         />
-        <button className="bg-gray-300 text-black px-[10px] pb-1 rounded-sm mx-2 my-1">
+        <button className="bg-gray-300 text-black px-[10px] pb-1 rounded-[2px] mx-2 my-1">
           /
         </button>
       </div>
-      <div className="flex justify-center items-center bg-[#3CAA2A33] px-2 py-1 rounded-sm mr-4">
+      <div className="flex justify-center items-center bg-[#3CAA2A33] px-2 py-1 rounded-[4px] mr-4">
         <span className="block bg-[#3CAA2A] h-[8px] w-[8px] rounded-full mr-1"></span>
-        <p className="text-[#3CAA2A] text-[10px] tracking-wide font-semibold">
+        <p className="text-[#3CAA2A] text-[12px] tracking-wide font-semibold">
           STATUS
         </p>
       </div>

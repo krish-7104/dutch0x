@@ -14,14 +14,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-[#f5f5f5] w-full min-h-[100vh] pb-10">
-        <div className="bg-white shadow-md pb-8">
+        <div className="bg-white box-shadow pb-8">
           <Navbar />
           <TopDrawer />
         </div>
         <div className="2xl:w-[85%] mx-auto">
           <div className="flex justify-between mt-4 mx-10">
             <div className="w-[68%]">
-              <p className="text-[#00000080] text-xl">Events</p>
+              <p className="text-[#00000080] text-[24px]">Events</p>
               <Card />
             </div>
             <SidePanel />

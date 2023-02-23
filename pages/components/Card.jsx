@@ -5,10 +5,10 @@ const Card = () => {
   return (
     <>
       {/* First Card */}
-      <div className="bg-white mt-4 rounded-md flex justify-between items-center shadow-md pb-4 pt-2 mb-8 overflow-hidden relative">
+      <div className="bg-white mt-4 rounded-md flex justify-between items-center box-shadow pb-4 pt-2 mb-8 overflow-hidden relative">
         <div className="w-full">
           <div className="pt-3 flex">
-            <p className="bg-[#3caa2a] text-white text-[10px] font-semibold tracking-wider rounded-r-md pr-2 pl-6 py-1 flex justify-center items-center">
+            <p className="bg-[#3caa2a] text-white text-xs font-semibold tracking-wider rounded-r-md pr-2 pl-6 py-1 flex justify-center items-center">
               <svg
                 className="mr-2"
                 width="15"
@@ -31,7 +31,7 @@ const Card = () => {
               </svg>
               AIRDROP
             </p>
-            <p className="bg-[#e4e4e4] text-black text-[10px] font-bold tracking-wider rounded-md py-1 px-3 ml-2 flex justify-center items-center">
+            <p className="bg-[#e4e4e4] text-black text-sm font-bold rounded-md py-1 px-3 ml-2 flex justify-center items-center">
               <svg
                 className="mr-2"
                 width="14"
@@ -69,11 +69,11 @@ const Card = () => {
               <p className="text-[14px] z-20">2022-09-13 08:57:15</p>
             </div>
           </div>
-          <p className="tracking-tight mt-4 ml-6 z-20">
+          <p className="tracking-tight mt-4 ml-6 z-20 text-base">
             🍎🍌🍍The Fruit Salad Game🍆🥦🥕
           </p>
           <div className="flex justify-start items-center ml-6">
-            <p className="tracking-tight my-2 text-2xl font-semibold">Manure</p>
+            <p className="tracking-tight my-2 text-3xl font-semibold">Manure</p>
             <p className="text-sm ml-2 -mb-2">x 100</p>
           </div>
           <div className="flex items-center ml-6 z-20">
@@ -92,15 +92,15 @@ const Card = () => {
             <span className="h-[14px] w-[60%] block gradient rounded-[8px]"></span>
           </div>
           <div className="ml-6 flex items-center mt-4">
-            <button className="bg-black border-2 border-black text-white rounded-md text-sm py-1 px-2 z-20">
+            <button className="bg-black border-2 border-black text-white rounded-md text-base py-1 px-2 z-20">
               More Details
             </button>
-            <button className="border-[1.4px] border-black text-black rounded-md text-sm py-1 px-2 ml-2 z-20">
+            <button className="border-[1.4px] border-black text-black rounded-md text-sbasem py-1 px-2 ml-2 z-20">
               Cancel
             </button>
             <div className="ml-4 flex z-20">
-              <input type="checkbox" id="" className="accent-black" />
-              <p className="ml-2">Receive report on email</p>
+              <input type="checkbox" checked id="" className="accent-black" />
+              <p className="ml-2 text-base">Receive report on email</p>
             </div>
           </div>
         </div>
@@ -120,10 +120,10 @@ const Card = () => {
         />
       </div>
       {/* Second Card */}
-      <div className="bg-white mt-4 rounded-md flex justify-between items-center shadow-md pb-4 pt-2 mb-8 overflow-hidden relative">
+      <div className="bg-white mt-4 rounded-md flex justify-between items-center box-shadow pb-4 pt-2 mb-8 overflow-hidden relative">
         <div className="w-full">
           <div className="pt-3 flex">
-            <p className="bg-[#28458f] text-white text-[10px] flex justify-center items-center font-semibold tracking-wider rounded-r-md pr-2 pl-6 py-1">
+            <p className="bg-[#28458f] text-white text-xs flex justify-center items-center font-semibold tracking-wider rounded-r-md pr-2 pl-6 py-1">
               <svg
                 className="mr-2"
                 width="15"
@@ -141,7 +141,7 @@ const Card = () => {
               </svg>
               AIRDROP
             </p>
-            <p className="bg-[#e4e4e4] text-black text-[10px] font-bold tracking-wider rounded-md py-1 px-3 ml-2 flex justify-center items-center">
+            <p className="bg-[#e4e4e4] text-black text-sm font-bold rounded-md py-1 px-3 ml-2 flex justify-center items-center">
               <svg
                 className="mr-2"
                 width="14"
@@ -175,15 +175,15 @@ const Card = () => {
                   fill-opacity="0.7"
                 />
               </svg>
-              <p className="font-bold text-[14px] mx-2 z-20">Started</p>
-              <p className="text-[14px] z-20">2022-09-13 08:57:15</p>
+              <p className="font-bold text-sm mx-2 z-20">Started</p>
+              <p className="text-sm z-20">2022-09-13 08:57:15</p>
             </div>
           </div>
-          <p className="tracking-tight mt-4 ml-6 z-20">
+          <p className="tracking-tight mt-4 ml-6 z-20 text-base">
             🍎🍌🍍The Fruit Salad Game🍆🥦🥕
           </p>
           <div className="flex justify-start items-center ml-6">
-            <p className="tracking-tight my-2 text-2xl font-semibold">Water</p>
+            <p className="tracking-tight my-2 text-3xl font-semibold">Water</p>
             <p className="text-sm ml-2 -mb-2 z-20">x 100</p>
           </div>
           <div className="flex items-center ml-6 z-20 text-sm">
@@ -202,7 +202,7 @@ const Card = () => {
             <span className="h-[14px] w-[100%] block gradient rounded-[8px]"></span>
           </div>
           <div className="ml-6 flex items-center mt-4 z-20">
-            <button className="bg-black border-2 border-black text-white rounded-md text-sm py-1 px-2 z-20">
+            <button className="bg-black border-2 border-black text-white rounded-md text-base py-1 px-2 z-20">
               More Details
             </button>
           </div>
